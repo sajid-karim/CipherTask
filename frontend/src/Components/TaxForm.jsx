@@ -169,7 +169,7 @@ const TaxAddForm = () => {
     <Formik initialValues={initialValues} onSubmit={handleSubmit}>
       {({ isSubmitting, setFieldValue, values }) => (
         <Form>
-          <div>
+          <div className="taxName">
             <label htmlFor="taxName">Add Tax</label>
             <Field
               type="text"
@@ -196,7 +196,7 @@ const TaxAddForm = () => {
           </div>
           <hr />
 
-          <div>
+          <div className="search">
             <label htmlFor="search">Search items:</label>
             <Field
               type="text"
