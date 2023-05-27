@@ -39,6 +39,7 @@ form {
   /* Radio button group */
   #my-selection-radio {
     margin-bottom: 15px;
+    margin-left: 20px;
   }
   
   /* Checkbox group */
@@ -91,6 +92,7 @@ form {
   .search {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
   }
 
   .taxName {
